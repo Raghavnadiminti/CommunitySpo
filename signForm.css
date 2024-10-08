@@ -1,0 +1,51 @@
+#form{
+    width:30vw;
+    height:30vw;
+    position: absolute;
+    left:40%;
+    top:20%;
+    padding:50px;
+    margin-bottom:8vw;
+    margin-top:-6vw;
+    margin-left:-6vw;
+  
+    border:#6661fb  5px solid;
+    
+  }
+  .incls{
+    margin-right:30px;
+    margin-bottom:20px;
+  }
+  form{
+    display:flex;
+    flex-direction: column;
+  }
+  .low{
+   animation:Low 5s forwards;
+    margin-bottom:10px;
+  
+  }
+  .high{
+    animation:high 5s forwards;
+    margin-bottom:10px;
+  }
+  .medium{
+    animation: mediu 5s forwards;
+    margin-bottom:10px;
+  }
+  .signinbtn{
+    margin-top:10px;
+    background-color:#6661fb  ;
+    border:white 2px solid;
+    color:white
+  }
+  
+  @keyframes Low{
+    from{width:1px;
+        height:1px;}
+    to{
+      width:80px;
+    height:2px;
+    background-color:red;
+    }
+  }
